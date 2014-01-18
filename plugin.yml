@@ -1,0 +1,5 @@
+name: MPK
+main: com.mrinspector.plugin.MPK
+author: MrInspector
+depend: [Vault]
+version: 1.0.0
