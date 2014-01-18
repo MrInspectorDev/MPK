@@ -1,0 +1,4 @@
+MPK
+===
+
+Money per kill.
