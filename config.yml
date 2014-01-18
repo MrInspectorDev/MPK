@@ -1,0 +1,19 @@
+# Author: MrInspector
+# Version: 1.2
+# MPK (Money Per Kill)
+# These are default settings, change them anytime to your needings!
+# Set the values to nothing if you don't want something enabled.
+# Quick notes: {name} is the player who got killed,
+# {killersname} is the person who killed the player, 
+# if you want to get their name just type that in.
+# Also, to get the balance of the players, use {balance}, {killersbalance}
+MessageOnKill: '&6[&4MyServer&6]&7 You have gotten 4 dollars for killing {name}!'
+MessageOnDeath: '&6[&4MyServer&6]&7 You have lost 4 dollars for being killed by {killersname}!'
+MessageOnJoin: '&6[&4MyServer&6]&7 MPK has been installed to version 1.2!
+# Note, if you want to disable the amount on death or amount on kill, just change it to '0' and you'll be fine!
+AmountOnKill: 4
+AmountOnDeath: 4
+# The disable is when you want to easily just disable MPK just
+# change it to true, then just change it
+# back to false if you want to enable.
+Disable: false
