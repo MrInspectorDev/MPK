@@ -19,10 +19,7 @@ public class MPK extends JavaPlugin implements Listener {
 	    getConfig().options().copyDefaults(true);
 	    saveDefaultConfig();
 		if (!setupEconomy()) {
-			getLogger()
-					.severe(String
-							.format("[%s] - Disabled due to no Vault dependency found!",
-									getDescription().getName()));
+			getLogger().severe(String.format("[%s] - Disabled due to no Vault dependency found!", getDescription().getName()));
 			getServer().getPluginManager().disablePlugin(this);
 			
 			return;
