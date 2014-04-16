@@ -43,7 +43,8 @@ public class MPK extends JavaPlugin implements Listener {
 	}
 	
 	@EventHandler
-	public void onJoinMessage(PlayerJoinEvent e){
+	public void onJoinMessage(PlayerJoinEvent e) {
+		e.getPlayer().sendMessage(ChatColor.GOLD + "[MPK]" + ChatColor.GREEN + " Running MPK Version 3.0.0 by" + ChatColor.GRAY + " MrInspector");
 		String messageonjoin = super.getConfig().getString("MessageOnJoin");
 		messageonjoin = ChatColor.translateAlternateColorCodes('&', messageonjoin);
 		e.getPlayer().sendMessage(messageonjoin);
